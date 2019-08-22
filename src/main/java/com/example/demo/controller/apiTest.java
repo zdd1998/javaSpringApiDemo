@@ -125,9 +125,9 @@ public class apiTest {
 
     @GetMapping(value = "git")
     public ArrayList<String> gitOptions(ArrayList<String> commits){
-        // 本地服务器用这个
-        commits.add("261b007b9fcddd88e4a20eb4fcf4163309f79c06");
-        commits.add("cbbeda99edd80a8382b4c5a232dca1acd607abd9");
+        // 本地服务器用这个 具体根据自己配置的环境设置
+        commits.add("261b007b9fcddd88e4a20eb4fcf4163309f79c06"); // 测试commit
+        commits.add("cbbeda99edd80a8382b4c5a232dca1acd607abd9"); // 测试commit
         String localPath = "/Users/zhangdd/Desktop/Project/repo";
         String sshKeyPath = "/Users/zhangdd/.ssh/id_rsa";
         String knowHostPath = "/Users/zhangdd/.ssh/known_hosts";
